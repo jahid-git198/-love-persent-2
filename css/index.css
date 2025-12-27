@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #243750;
+
+}
+
+
+
+section {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: #243750;
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+.love-calculator-fucntion {
+    overflow: hidden;
+
+    padding: 15px;
+    box-shadow: 1px 0px 13px 6px rgba(255, 255, 255, 15%);
+    border-radius: 10px;
+    width: 640px;
+    text-align: center;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+}
+
+
+
+.love-calculator {
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    color: #243750;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #BF417E;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+
+}
+
+
+
+
+
+/*  result persent  */
+
+
+
+.result-container p {
+    position: relative;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fb93bb;
+
+
+
+}
+
+
+.result-container {
+    display: none;
+
+}
+
+
+
+
+.persent-box {
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.persentPrant {
+
+    width: 220px;
+    height: 220px;
+    /* background: conic-gradient(#fb93bb  0% 5%, #755d5ddc 1% 100%);  */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.persent {
+
+    width: 200px;
+    height: 200px;
+    background-color: #BD437A;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loveEmoji {
+
+    display: flex;
+    position: relative;
+    top: -17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loveEmoji img {
+    overflow: hidden;
+    width: 100%;
+
+
+
+}
+
+/* আবার চেক কর বাটন  */
+
+.recheat-Button {
+
+position: relative;
+
+top: 34px;
+}
+
+.recheatButton {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #fb93bb;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+
+.loveEmoji:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 230px;
+    background-color: rebeccapurple;
+    left: -15px;
+    margin-top: 20px;
+
+
+}
+
+.h-2 {
+    padding: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+
+    .result-container {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+
+
+    /* from  */
+    .h-2 {
+        padding: 20px;
+    }
+
+    /* return persent  */
+
+
+    .loveEmoji:after {
+        content: "";
+        width: 92px;
+        height: 3px;
+        left: 5px;
+        top: -4px;
+    }
+
+    /* .persent-box{
+    top: 40px;
+    gap: 20px;
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+} */
+
+
+
+
+    section {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+
+
+
+
+        /* background-color:#243750;
+     width: 425px;
+     height: auto; */
+    }
+
+    .love-calculator-fucntion {
+        overflow: hidden;
+        width: 370px;
+        padding: 15px;
+        box-shadow: 1px 0px 13px 6px rgba(255, 255, 255, 15%);
+        border-radius: 10px;
+        position: relative;
+      
+       
+         
+    }
+ 
+
+    .love-calculator {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    input {
+        padding: 15px;
+        border-radius: 10px;
+        color: #243750;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+    .button {
+       
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #BF417E;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        
+
+    }
+
+    /*  lovee persent   */
+
+
+   .persent-box{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+   }
+    .loveEmoji img {
+         width: 100px;
+    }
+
+    .persentPrant {
+
+    width: 100px;
+    height: 100px;
+    /* background: conic-gradient(#fb93bb  0% 5%, #755d5ddc 1% 100%);  */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.persent {
+
+    width: 80px;
+    height: 80px;
+    background-color: #BD437A;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+
+
+
+
+}

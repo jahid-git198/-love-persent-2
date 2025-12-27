@@ -82,6 +82,7 @@ click.addEventListener("click", (e) => {
     lovecalculator.style.display = "none";
 
     resultcontainer.style.display = "block";
+    resultcontainer.style.display = "width:100% ;   box-sizing:border-box; heigth:auto ";
 
     persentPranT.style.background = ` conic-gradient(#fb93bb  0% ${lovesor}%, #755d5ddc  ${lovesor}% 100%)`;
 
